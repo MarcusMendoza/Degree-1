@@ -16,7 +16,10 @@ for(x=0;x<degreelist.length;x++){
   }
 return sum;
 }
-function degreecentrality(){
+function degreecentrality(mtrx,v){
+  let neighbor = mtrx.size().pop(0) -1;
+      return degree(mtrx,v)/neighbor;
+
 
 }
 
