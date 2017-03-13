@@ -1,1 +1,1 @@
-# Degree-1
+# degree.js
